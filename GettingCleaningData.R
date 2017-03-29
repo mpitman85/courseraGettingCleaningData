@@ -7,3 +7,8 @@ download.file(
 ## Download documentation on XML package
 download.file("http://www.omegahat.net/RSXML/shortIntro.pdf", 
               destfile="XMLpackage.pdf", method="curl")
+
+## Download jsonlite R package vignette
+download.file(
+   "https://cran.r-project.org/web/packages/jsonlite/vignettes/json-mapping.pdf",
+        destfile="./FurtherResources/jsonliteVignette.pdf", method="curl")
